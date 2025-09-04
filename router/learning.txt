@@ -1,0 +1,23 @@
+topics covered
+1. created components
+2. making layout and using Outlet, to create header and footer always e
+seen and all the other components visible in between the header and footer
+3. createing router using routerPorvider, react router dom. 
+     <StrictMode>
+    <RouterProvider router = {router}/>
+    </StrictMode>
+
+    just comman systax for creating a router
+
+4. creating router using router = create browser router
+    by create routers from element, by having Layout as the heighst parent element and nesting about contacnt
+    home inside it
+
+    more nesting can be creating by making any inner element non self closing, just like we nested all elements inside layout
+    we nest the elements for example inside about like about/mroeabout 
+
+5. got parameters from url, check user/:id 
+    used useParams for that
+
+6. optimizing api calls using Loader form react router dom
+    loading api calls when hovering on a link itself
